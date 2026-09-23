@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=JetBrains+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,300..500&display=swap');
+:root {
+  --couleur-fond: #E6E9E4;
+  --couleur-accent: #C41E3A;
+  --couleur-carte: #FBFAF7;
+  --couleur-texte: #22201C;
+  --couleur-discret: #6E6C66;
+  --couleur-ligne: #D2D6CE;
+
+  /* Les polices du site */
+  --police-titre: 'Bricolage Grotesque', system-ui, sans-serif;
+  --police-texte: 'Newsreader', Georgia, serif;
+  --police-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* =========================================================
+   TÂCHE T04 : changez la valeur de --couleur-accent (ligne 4)
+   Quelques idées :
+     #C41E3A  rouge carmin (valeur d'origine)
+     #1B5E4F  vert forêt
+     #2C4A7C  bleu encre
+     #B3541E  orange brique
+     #6A3B8F  violet prune
+   ========================================================= */
+
+
+/* ===== 1. RÉGLAGES GÉNÉRAUX ============================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 0 4rem;
+  font-family: var(--police-texte);
+  color: var(--couleur-texte);
+
+  /* Le fond imite une feuille de papier quadrillé */
+  background-color: var(--couleur-fond);
+  background-image:
+    linear-gradient(var(--couleur-ligne) 1px, transparent 1px),
+    linear-gradient(90deg, var(--couleur-ligne) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+
+/* ===== 2. L'EN-TÊTE DU SITE ============================== */
+
+.entete {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 2.5rem;
+}
+
+.entete__titre {
+  font-family: var(--police-titre);
+  font-size: clamp(2.6rem, 9vw, 5rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  margin: 0;
+}
+
+.entete__lieu {
+  font-family: var(--police-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--couleur-accent);
+  margin: 0.6rem 0 0;
+}
+
+.entete__intro {
+  max-width: 32rem;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--couleur-discret);
+  margin: 1.5rem 0 0;
+}
+
+
+/* ===== 3. LE MENU ======================================== */
+
+.menu {
+  margin-top: 2rem;
+  border-top: 2px solid var(--couleur-texte);
+  padding-top: 1rem;
+}
+
+.menu__liste {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__lien {
+  font-family: var(--police-mono);
+  font-size: 0.82rem;
+  color: var(--couleur-texte);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.menu__lien:hover,
+.menu__lien:focus-visible {
+  color: var(--couleur-accent);
+  border-bottom-color: var(--couleur-accent);
+}
+
+
+/* ===== 4. LA GRILLE DE FICHES ============================ */
+
+.contenu {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.grille {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+
+/* ===== 5. UNE FICHE ====================================== */
+
+.fiche {
+  position: relative;
+  background: var(--couleur-carte);
+  border: 1px solid var(--couleur-ligne);
+  border-radius: 3px;
+  padding: 2.4rem 1.5rem 1.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 8px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Le petit trou perforé en haut à gauche, comme sur une vraie fiche */
+.fiche::before {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--couleur-fond);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Les fiches sont légèrement de travers, comme posées sur un bureau */
+.fiche:nth-child(3n + 1) { transform: rotate(-0.5deg); }
+.fiche:nth-child(3n + 2) { transform: rotate(0.4deg); }
+.fiche:nth-child(3n + 3) { transform: rotate(-0.2deg); }
+
+/* Au survol, la fiche se redresse et se soulève */
+.fiche:hover,
+.fiche:focus-within {
+  transform: rotate(0deg) translateY(-4px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 16px 30px rgba(0, 0, 0, 0.1);
+}
+
+.fiche__categorie {
+  display: inline-block;
+  font-family: var(--police-mono);
+  font-size: 0.62rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--couleur-carte);
+  background: var(--couleur-accent);
+  padding: 0.25rem 0.55rem;
+  border-radius: 2px;
+}
+
+.fiche__titre {
+  font-family: var(--police-titre);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  margin: 0.9rem 0 0;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--couleur-ligne);
+}
+
+.fiche__texte {
+  font-size: 1.02rem;
+  line-height: 1.55;
+  margin: 0.9rem 0 1.4rem;
+}
+
+.fiche__auteur {
+  font-family: var(--police-mono);
+  font-size: 0.68rem;
+  color: var(--couleur-discret);
+  margin: 0;
+}
+
+.fiche__auteur::before {
+  content: "— ";
+  color: var(--couleur-accent);
+}
+
+
+/* ===== 6. QUAND IL N'Y A AUCUNE FICHE ==================== */
+
+.vide {
+  grid-column: 1 / -1;
+  border: 2px dashed var(--couleur-ligne);
+  border-radius: 3px;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: var(--couleur-discret);
+}
+
+.vide code {
+  font-family: var(--police-mono);
+  font-size: 0.85em;
+  color: var(--couleur-accent);
+}
+
+
+/* ===== 7. LE PIED DE PAGE ================================ */
+
+.pied {
+  max-width: 60rem;
+  margin: 4rem auto 0;
+  padding: 1.5rem;
+  font-family: var(--police-mono);
+  font-size: 0.72rem;
+  color: var(--couleur-discret);
+  border-top: 1px solid var(--couleur-ligne);
+}
+
+
+/* ===== 8. ACCESSIBILITÉ ================================== */
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--couleur-accent);
+  outline-offset: 3px;
+}
+
+/* Si l'utilisateur a désactivé les animations dans son système */
+@media (prefers-reduced-motion: reduce) {
+  .fiche,
+  .fiche:nth-child(3n + 1),
+  .fiche:nth-child(3n + 2),
+  .fiche:nth-child(3n + 3) {
+    transform: none;
+    transition: none;
+  }
+}

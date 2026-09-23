@@ -1,0 +1,16 @@
+# Fichiers créés automatiquement par le système
+# ---------------------------------------------
+# Git ignorera tout fichier dont le nom figure ici :
+# il n'apparaîtra plus dans "git status".
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires des éditeurs
+*~
+*.swp
+.vscode/
+.idea/
+
+# ===== AJOUTEZ VOS FICHIERS À IGNORER CI-DESSOUS =====
