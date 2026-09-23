@@ -64,7 +64,12 @@ const FICHES = [
     texte: "Une incompréhension non traitée en cours devient une heure de travail le soir. Le calcul est vite fait.",
     auteur: "L'équipe pédagogique"
   },
-
+  {
+    titre: "Bien dormir",
+    categorie: "santé",
+    texte: "il faut bien dormir pour etre en forme pour faire des math et du travail forcé dans la société",
+    auteur: "Le Communiste"
+  },
   // ===== AJOUTEZ VOS FICHES CI-DESSOUS =====
 
 
