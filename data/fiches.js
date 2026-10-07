@@ -72,7 +72,12 @@ const FICHES = [
     texte: "il faut bien dormir pour etre en forme pour faire des math et du travail forcé dans la société",
     auteur: "Le Capitaliste"
   },
-
+  {
+    titre: "prendre soin de son bien étre psychologique",
+    categorie: "santé",
+    texte: "méme en travaillant il faut toujours faire ses loisirs afin d'éviter la depression",
+    auteur: "La piece"
+  },
   // ===== FIN DE VOS FICHES =====
 
 ];
