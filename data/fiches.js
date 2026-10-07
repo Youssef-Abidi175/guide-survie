@@ -73,11 +73,29 @@ const FICHES = [
     auteur: "Le Capitaliste"
   },
   {
+<<<<<<< HEAD
     titre: "prendre soin de son bien étre psychologique",
     categorie: "santé",
     texte: "méme en travaillant il faut toujours faire ses loisirs afin d'éviter la depression",
     auteur: "La piece"
   },
+=======
+    titre: "Bien travailler",
+    categorie: "Études",
+    texte: "Il faut bien s'organiser.",
+    auteur: "Kenza"
+  },
+
+
+  {
+    titre: "Comment bien larp",
+    categorie: "Larping",
+    texte: "Pour bien larp, il faut apprendre à lier 2 deux éléments qui n'ont aucun rapport ",
+    auteur: "Larp king"
+  },
+
+
+>>>>>>> 6620482ff94c29dbefd33a8128e84e3811f0bbf3
   // ===== FIN DE VOS FICHES =====
 
 ];
