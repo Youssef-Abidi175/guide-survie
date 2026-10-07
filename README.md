@@ -39,6 +39,7 @@ Ajoutez votre ligne à la fin de cette liste, en respectant le format.
 
 <!-- ===== AJOUTEZ VOTRE NOM CI-DESSOUS ===== -->
 Abidi Youssef
+Kenza Hadil Rahmani
 <!-- ===== FIN DES CONTRIBUTEURS ===== -->
 ```
 ---
