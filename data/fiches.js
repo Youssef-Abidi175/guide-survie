@@ -86,6 +86,14 @@ const FICHES = [
     auteur: "Kenza"
   },
 
+{
+    titre: "Comment bien larp",
+    categorie: "Larping",
+    texte: "Il ne faut jamais donner trop de détails",
+    auteur: "Larp king"
+  },
+  
+
   // ===== FIN DE VOS FICHES =====
 
 ];
