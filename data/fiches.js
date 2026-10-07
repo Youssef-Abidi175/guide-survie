@@ -66,6 +66,12 @@ const FICHES = [
   },
 
   // ===== AJOUTEZ VOS FICHES CI-DESSOUS =====
+    {
+    titre: "Le stress au travail",
+    categorie: "bien etre",
+    texte: "il faut penser a boire de l'eau et a bien respirer pour etre plus detendue",
+    auteur: "Yogaman"
+  }, 
   {
     titre: "Bien dormir",
     categorie: "santé",
