@@ -86,10 +86,10 @@ const FICHES = [
     auteur: "Kenza"
   },
 
-{
+  {
     titre: "Comment bien larp",
     categorie: "Larping",
-    texte: "Il ne faut jamais donner trop de détails. Utiliser "ça dépend" quand tu ne connait pas le sujet. Il faut connaître quelques mot clés et les spam,
+    texte: "Il ne faut jamais donner trop de détails. Utiliser <ça dépend> quand tu ne connait pas le sujet. Il faut connaître quelques mot clés et les spam",
     auteur: "Larp king"
   },
   
