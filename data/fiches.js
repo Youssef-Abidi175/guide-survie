@@ -72,6 +72,13 @@ const FICHES = [
     texte: "il faut bien dormir pour etre en forme pour faire des math et du travail forcé dans la société",
     auteur: "Le Capitaliste"
   },
+  {
+    titre: "Bien travailler",
+    categorie: "Études",
+    texte: "Il faut bien s'organiser.",
+    auteur: "Kenza"
+  },
+
 
   // ===== FIN DE VOS FICHES =====
 
