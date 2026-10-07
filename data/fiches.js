@@ -78,6 +78,14 @@ const FICHES = [
     texte: "méme en travaillant il faut toujours faire ses loisirs afin d'éviter la depression",
     auteur: "La piece"
   },
+
+  {
+    titre: "Bien travailler",
+    categorie: "Études",
+    texte: "Il faut bien s'organiser",
+    auteur: "Kenza"
+  },
+
   // ===== FIN DE VOS FICHES =====
 
 ];
