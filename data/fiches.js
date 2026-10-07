@@ -80,6 +80,14 @@ const FICHES = [
   },
 
 
+  {
+    titre: "Comment bien larp",
+    categorie: "Larping",
+    texte: "Pour bien larp, il faut apprendre à lier 2 deux éléments qui n'ont aucun rapport ",
+    auteur: "Larp king"
+  },
+
+
   // ===== FIN DE VOS FICHES =====
 
 ];
