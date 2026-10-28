@@ -38,6 +38,20 @@ const FICHES = [
   },
 
   {
+    titre: "L'importance d'un bon petit-dej",
+    categorie: "Vie pratique",
+    texte: "Le petit-déjeuner est une partie indispensable de notre vie quotidienne qui nous aide à bien commencer la journée. ",
+    auteur: "Skander"
+  },
+
+  {
+    titre: "Bouger chaque jour : un petit effort, de grands bénéfices",
+    categorie: "Bonne santée",
+    texte: "L’activité physique est une partie importante de notre vie quotidienne qui nous aide à garder la forme, à réduire le stress et à mieux dormir.",
+    auteur: "Skander"
+  },
+
+  {
     titre: "Arriver avant 8h30",
     categorie: "Transport",
     texte: "Entre 8h30 et 9h, le trajet double de durée. Partir vingt minutes plus tôt vous en fait gagner quarante.",
