@@ -63,6 +63,12 @@ const FICHES = [
     texte: "Il faut pratiquer du sport.",
     auteur: "Kenza"
   },
+  {
+    titre: "Gestion du temps",
+    categorie: "Vie pratique",
+    texte: "Il faut bien gérer son temps",
+    auteur: "Kenza"
+  },
 
 
   {
