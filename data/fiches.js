@@ -50,6 +50,20 @@ const FICHES = [
     texte: "On y comprend mieux, on y pose plus de questions, et on y sort avec moins de choses à revoir le soir.",
     auteur: "L'équipe pédagogique"
   },
+  {
+    titre: "Conseils",
+    categorie: "Études",
+    texte: "Il ne faut pas stresser pour les examens.",
+    auteur: "Kenza"
+  },
+
+  {
+    titre: "Sport",
+    categorie: "Loisirs",
+    texte: "Il faut pratiquer du sport.",
+    auteur: "Kenza"
+  },
+
 
   {
     titre: "Manger sans se ruiner",
