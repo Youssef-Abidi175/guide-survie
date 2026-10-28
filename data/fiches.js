@@ -56,6 +56,12 @@ const FICHES = [
     texte: "Etre gentil est la meilleur maniere de gagner de l'argent et d'exploiter les autres",
     auteur: "Toujour Youssef"
   },
+  {
+    titre: "Bonjour les amis",
+    categorie: "Motivation",
+    texte: "le monde appartient a ceux qui se lève tot",
+    auteur: "Youssef"
+  },
 
   {
     titre: "Le premier rang n'est pas un piège",
