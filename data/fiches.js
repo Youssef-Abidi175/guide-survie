@@ -50,6 +50,11 @@ const FICHES = [
     texte: "L’activité physique est une partie importante de notre vie quotidienne qui nous aide à garder la forme, à réduire le stress et à mieux dormir.",
     auteur: "Skander"
   },
+  {
+    titre: "Bien dormir : le secret d'une journée réussie",
+    categorie: "Santé et bien-être",
+    texte: "Le sommeil est une partie indispensable de notre vie quotidienne qui nous aide à récupérer, à mémoriser et à rester en bonne santé.",
+    auteur: "Skander"  },
 
   {
     titre: "Arriver avant 8h30",
