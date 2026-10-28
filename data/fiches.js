@@ -44,6 +44,14 @@ const FICHES = [
     auteur: "Zakaria"
   },
 
+  {
+    titre: "Taxi",
+    categorie: "Transport",
+    texte: "Covoiturage>Taxi indrive",
+    auteur: "Zakaria"
+  },
+
+
 
   {
     titre: "Le distributeur du deuxième",
