@@ -87,6 +87,25 @@ const FICHES = [
   },
 
   {
+    titre: "Le bonheur",
+    categorie: "Vie pratique",
+    texte: "il faut etre sage, pour etre heureux",
+    auteur: "Youssef"
+  },
+  {
+    titre: "soyons gentil avec les autres",
+    categorie: "Bons plans",
+    texte: "Etre gentil est la meilleur maniere de gagner de l'argent et d'exploiter les autres",
+    auteur: "Toujour Youssef"
+  },
+  {
+    titre: "Bonjour les amis",
+    categorie: "Motivation",
+    texte: "le monde appartient a ceux qui se lève tot",
+    auteur: "Youssef"
+  },
+
+  {
     titre: "Le premier rang n'est pas un piège",
     categorie: "Études",
     texte: "On y comprend mieux, on y pose plus de questions, et on y sort avec moins de choses à revoir le soir.",
