@@ -31,6 +31,29 @@ const FICHES = [
   },
 
   {
+    titre: "Le café du matin",
+    categorie: "Vie pratique",
+    texte: "Si tu n'arrives pas à garder les yeux ouverts à 9h du matin, pense à prendre un café",
+    auteur: "Zakaria"
+  },
+
+  {
+    titre: "Commander à manger",
+    categorie: "Bons plans",
+    texte: "Sur Glovo, il y'a toujours des promos à -30% à partir de 11h30",
+    auteur: "Zakaria"
+  },
+
+  {
+    titre: "Taxi",
+    categorie: "Transport",
+    texte: "Covoiturage>Taxi indrive",
+    auteur: "Zakaria"
+  },
+
+
+
+  {
     titre: "Le distributeur du deuxième",
     categorie: "Vie pratique",
     texte: "Il rend la monnaie. Celui du rez-de-chaussée, non. L'information vaut son pesant de pièces jaunes.",
@@ -138,6 +161,7 @@ const FICHES = [
     auteur: "Larp king"
   },
   
+
 
   // ===== FIN DE VOS FICHES =====
 
