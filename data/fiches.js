@@ -38,7 +38,7 @@ const FICHES = [
   {
     titre: "comment combattre le stress",
     categorie: "études",
-    texte: "Pour certains les clubs sont une perte de temps mais en vrai ce sont des changements du quotidien que chaque élève en a besoin afin de combattre le stress",
+    texte: "Pour certains les clubs sont une perte de temps mais en vrai ce sont des activités essentielles du quotidien    que chaque élève en a besoin afin de combattre le stress",
     auteur: "Skander"
   },
 
