@@ -38,14 +38,6 @@ const FICHES = [
   },
 
   {
-    titre: "Révision github",
-    categorie: "Études",
-    texte: "Faut refaire les TD vite fait pour ne pas oublier ce qu'on a appris",
-    auteur: "Zakaria"
-  },
-
-
-  {
     titre: "Commander à manger",
     categorie: "Bons plans",
     texte: "Sur Glovo, il y'a toujours des promos à -30% à partir de 11h30",
