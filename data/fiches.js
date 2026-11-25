@@ -40,7 +40,7 @@ const FICHES = [
   {
     titre: "Révision github",
     categorie: "Études",
-    texte: "Faut refaire les TD vite fait pour ne pas oublier ce qu'on a appris",
+    texte: "Faut refaire les TD vite fait pour ne pas oublier ce qu'on a appris et rester à jour",
     auteur: "Zakaria"
   },
 
