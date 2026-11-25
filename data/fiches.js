@@ -52,6 +52,17 @@ const FICHES = [
   },
 
   {
+<<<<<<< HEAD
+    titre: "Révision github",
+    categorie: "Études",
+    texte: "Faut refaire les TD vite fait pour ne pas oublier ce qu'on a appris et rester à jour",
+    auteur: "Zakaria"
+  },
+
+
+  {
+=======
+>>>>>>> origin/main
     titre: "Commander à manger",
     categorie: "Bons plans",
     texte: "Sur Glovo, il y'a toujours des promos à -30% à partir de 11h30",
