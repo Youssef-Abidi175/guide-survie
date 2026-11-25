@@ -148,7 +148,7 @@ const FICHES = [
 
   // ===== AJOUTEZ VOS FICHES CI-DESSOUS =====
   {
-    titre: "Demandez de l'aide a vos proches",
+    titre: "Demandez de l'aide à vos proches quand vous ne vous sentez pas bien",
     categorie: "Bonheur et amour",
     texte: "Quand tout vas mal, il faut consulté de l'aide a vos amis, ils peuvent s'avérer plus sage qu'ils n'en n'ont l'air(sauf si votre ami c'est Skander)",
     auteur: "Youssef"
