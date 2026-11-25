@@ -67,17 +67,34 @@ const FICHES = [
     auteur: "Skander"
   },
 
+
+  {
+    titre: "Comment réussir ses examens",
+    categorie: "études",
+    texte: "Afin de réussir ses examens il faut toujours être à jour dans toutes les matières ",
+    auteur: "Skander"
+  },
+
   {
     titre: "Bouger chaque jour : un petit effort, de grands bénéfices",
     categorie: "Bonne santée",
     texte: "L’activité physique est une partie importante de notre vie quotidienne qui nous aide à garder la forme, à réduire le stress et à mieux dormir.",
     auteur: "Skander"
   },
+
+
   {
     titre: "Bien dormir : le secret d'une journée réussie",
     categorie: "Santé et bien-être",
     texte: "Le sommeil est une partie indispensable de notre vie quotidienne qui nous aide à récupérer, à mémoriser et à rester en bonne santé.",
     auteur: "Skander"  },
+  {
+    titre: "comment combattre le stress",
+    categorie: "études",
+    texte: "Pour certains les clubs sont une perte de temps mais en vrai ce sont des changements du quotidien que chaque élève en a besoin afin de combattre le stress",
+    auteur: "Skander"
+  },
+
 
   {
     titre: "Arriver avant 8h30",
