@@ -29,6 +29,20 @@ const FICHES = [
     texte: "Silencieuse jusqu'à 16h, beaucoup moins après. Si vous avez un partiel à réviser, venez le matin.",
     auteur: "L'équipe pédagogique"
   },
+  {
+    titre: "Comment réussir ses examens",
+    categorie: "études",
+    texte: "Afin de réussir ses examens il faut toujours être à jour dans toutes les matières ",
+    auteur: "Skander"
+  },
+  {
+    titre: "comment combattre le stress",
+    categorie: "études",
+    texte: "Pour certains les clubs sont une perte de temps mais en vrai ce sont des activités essentielles du quotidien    que chaque élève en a besoin afin de combattre le stress",
+    auteur: "Skander"
+  },
+
+
 
   {
     titre: "Le café du matin",
@@ -38,6 +52,7 @@ const FICHES = [
   },
 
   {
+<<<<<<< HEAD
     titre: "Révision github",
     categorie: "Études",
     texte: "Faut refaire les TD vite fait pour ne pas oublier ce qu'on a appris et rester à jour",
@@ -46,12 +61,19 @@ const FICHES = [
 
 
   {
+=======
+>>>>>>> origin/main
     titre: "Commander à manger",
     categorie: "Bons plans",
     texte: "Sur Glovo, il y'a toujours des promos à -30% à partir de 11h30",
     auteur: "Zakaria"
   },
-
+  {
+    titre:"L'organisation",
+    categorie:"Gestion du temps",
+    texte:"Il faut bien s'organiser et gérer son temps",
+    auteur:"Kenza"
+  },
   {
     titre: "Taxi",
     categorie: "Transport",
@@ -75,17 +97,22 @@ const FICHES = [
     auteur: "Skander"
   },
 
+
+  
   {
     titre: "Bouger chaque jour : un petit effort, de grands bénéfices",
     categorie: "Bonne santée",
     texte: "L’activité physique est une partie importante de notre vie quotidienne qui nous aide à garder la forme, à réduire le stress et à mieux dormir.",
     auteur: "Skander"
   },
+
+
   {
     titre: "Bien dormir : le secret d'une journée réussie",
     categorie: "Santé et bien-être",
     texte: "Le sommeil est une partie indispensable de notre vie quotidienne qui nous aide à récupérer, à mémoriser et à rester en bonne santé.",
     auteur: "Skander"  },
+  
 
   {
     titre: "Arriver avant 8h30",
@@ -155,6 +182,12 @@ const FICHES = [
   },
 
   // ===== AJOUTEZ VOS FICHES CI-DESSOUS =====
+  {
+    titre: "Demandez de l'aide à vos proches quand vous ne vous sentez pas bien",
+    categorie: "Bonheur et amour",
+    texte: "Quand tout vas mal, il faut consulté de l'aide a vos amis, ils peuvent s'avérer plus sage qu'ils n'en n'ont l'air(sauf si votre ami c'est Skander)",
+    auteur: "Youssef"
+  },
     {
     titre: "Le stress au travail",
     categorie: "bien etre",
