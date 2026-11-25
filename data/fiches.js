@@ -43,11 +43,11 @@ const FICHES = [
     texte: "Sur Glovo, il y'a toujours des promos à -30% à partir de 11h30",
     auteur: "Zakaria"
   },
-{
-    Titre:"Il faut bien s'organiser",
-    Categorie:"Gestion du temps",
-    Texte:"Il faut bien s'organiser et gérer son temps"
-    Auteur:"Kenza"
+  {
+    titre:"L'organisation",
+    categorie:"Gestion du temps",
+    texte:"Il faut bien s'organiser et gérer son temps",
+    auteur:"Kenza"
   },
   {
     titre: "Taxi",
